@@ -3,8 +3,12 @@
 - git add --> cria e adiciona arquivos e diretórios criados e suas respectivas alterações no container;
 - git add * --> cria e adiciona no container todos os arquivos e diretórios criados 
 e suas respectivas alterações no container;
+- git branch --> identifica o ramo em que o projeto se encontra;
+- git commit -am --> adiciona um arquivo e faz o commit;
 - git commit -m "comentário" --> confina os arquivos e diretórios que estão dentro container, 
 bem como suas alterações, no repositório local .git e insere um comentário;
+- git log --graph --> mostra o desenho do grafo de commits;
+- git log --oneline --graph --> mostra o desenho de grafo resumido;
 - git init --> cria um repositório local;
 - git log --> informação detalhada sobre as alterações realizadas pelo commit;
 - git log --oneline --> informação resumida sobre as alterações relizadas pelo commit;
@@ -19,3 +23,4 @@ bem como suas alterações, no repositório local .git e insere um comentário;
             Atalhos do git bash
 - ctrl + scroll do mouse --> zoom;
 - clear - limpa a tela do terminal;
+- code . --> abre o editor de textos padrão (Visual Studio Code);
