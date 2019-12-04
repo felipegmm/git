@@ -1,20 +1,43 @@
 
             Comandos do git bash 
-- git add --> cria e adiciona arquivos e diretórios criados e suas respectivas alterações no container;
+- git add <file> --> cria e adiciona arquivos e diretórios criados e suas respectivas alterações no container;
 - git add * --> cria e adiciona no container todos os arquivos e diretórios criados 
 e suas respectivas alterações no container;
+- git add . --> adiciona todos os arquivos no container;
+
 - git branch --> identifica o ramo em que o projeto se encontra;
-- git commit -am --> adiciona um arquivo e faz o commit;
+
+
+- git checkout -b <name> --> cria uma nova ramificação;
+- git checkout <file> --> descarta as mudanças no diretório atual;
+- git checkout <hash> --> altera para a última modificação definida pelo hash do commit;
+- git checkout master  --> retorna para o branch master;
+
+- git commit -am <file> --> adiciona um arquivo e faz o commit;
 - git commit -m "comentário" --> confina os arquivos e diretórios que estão dentro container, 
 bem como suas alterações, no repositório local .git e insere um comentário;
-- git log --graph --> mostra o desenho do grafo de commits;
-- git log --oneline --graph --> mostra o desenho de grafo resumido;
-- git init --> cria um repositório local;
+
+- git diff --> visualizar as mudanças realizadas antes de um commit;
+
 - git log --> informação detalhada sobre as alterações realizadas pelo commit;
 - git log --oneline --> informação resumida sobre as alterações relizadas pelo commit;
+- git log --graph --> mostra o desenho do grafo de commits;
+- git log --graph --all --> mostra o desenho do grafo de commits completo;
+- git log --oneline --graph --> mostra o desenho de grafo master resumido;
+- git log --oneline --graph --all --> mostra o desenho de grafo master e auxiliares, completo;
+
+- git init --> cria um repositório local;
+
 - ls (list) --> lista os arquivos e diretorios da pasta atual;
 - ls -a ou ls --all (all) --> não esconde ficheiros começados por . (ocultos);
-- git status --> informa sobre a situação do container e tarefas a cumprir;
+
+- git reset HEAD <file> --> desfaz o último commit;
+- git reset --hard <hash> --> remover um commit;
+
+- git status --> informa sobre tarefas a cumprir e a situação do container;
+
+- git switch - --> desfaz o último "checkout + hash";
+- git switch -c <name> --> cria uma nova ramificação;
 
 - touch --> criar arquivos;
 
