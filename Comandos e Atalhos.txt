@@ -6,6 +6,9 @@ e suas respectivas alterações no container;
 
 - git branch --> identifica o ramo em que o projeto se encontra;
 
+
+- git checkout -b <name> --> cria uma nova ramificação;
+
 - git checkout <file> --> descarta as mudanças no diretório atual;
 - git checkout <hash> --> altera para a última modificação definida pelo hash do commit;
 - git checkout master  --> retorna para o branch master;
@@ -32,6 +35,7 @@ bem como suas alterações, no repositório local .git e insere um comentário;
 - git status --> informa sobre tarefas a cumprir e a situação do container;
 
 - git switch - --> desfaz o último "checkout + hash";
+- git switch -c <name> --> cria uma nova ramificação;
 
 - touch --> criar arquivos;
 
