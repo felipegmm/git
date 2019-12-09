@@ -1,5 +1,0 @@
-Teste
-Entendendo o HEAD.
-Esta linha foi modificada no ramo Master
-Entendendo o HEAD
-Esta linha foi modificada no ramo Teste

@@ -7,11 +7,12 @@ e suas respectivas alterações no container;
 
 - git branch --> identifica o ramo em que o projeto se encontra;
 
-
 - git checkout -b <name> --> cria uma nova ramificação;
 - git checkout <file> --> descarta as mudanças no diretório atual;
 - git checkout <hash> --> altera para a última modificação definida pelo hash do commit;
 - git checkout master  --> retorna para o branch master;
+
+- git clone <endereço do repositório do github>
 
 - git commit -am <file> --> adiciona um arquivo e faz o commit;
 - git commit -m "comentário" --> confina os arquivos e diretórios que estão dentro container, 
@@ -28,8 +29,17 @@ bem como suas alterações, no repositório local .git e insere um comentário;
 
 - git init --> cria um repositório local;
 
-- ls (list) --> lista os arquivos e diretorios da pasta atual;
-- ls -a ou ls --all (all) --> não esconde ficheiros começados por . (ocultos);
+- git merge <name of auxiliar branch> --> unifica o ramos auxiliar ao master;
+- git merge --abort --> cancela a união dos ramos;
+
+- git pull --> sincroniza as alterações do github com o diretorio local;
+- git push --> envia alterações ao diretório remoto depois de um commit;
+
+- git remote --> verifica se há uma repositório remoto;
+- git remote -v --> mais detalhes sobre o repositório remoto;
+
+- git rm <file> --> deleta um arquivo do container;
+- git rm -r <repository_name> --> deleta um repositorio
 
 - git reset HEAD <file> --> desfaz o último commit;
 - git reset --hard <hash> --> remover um commit;
@@ -39,11 +49,22 @@ bem como suas alterações, no repositório local .git e insere um comentário;
 - git switch - --> desfaz o último "checkout + hash";
 - git switch -c <name> --> cria uma nova ramificação;
 
-- touch --> criar arquivos;
+
 
 - commit é um comentário que vc escreve sempre que vc modifica alguma coisa no seu projeto;
 
             Atalhos do git bash
+cd --> muda de diretorio;
+cd .. --> volta um diretprio em um nivel;
+
 - ctrl + scroll do mouse --> zoom;
 - clear - limpa a tela do terminal;
-- code . --> abre o editor de textos padrão (Visual Studio Code);
+- code --> abre o editor de textos padrão (Visual Studio Code);
+- code . --> abre o editor de textos padrão (Visual Studio Code) no diretorio atual;
+
+- ls (list) --> lista os arquivos e diretorios da pasta atual;
+- ls -a ou ls --all (all) --> não esconde ficheiros começados por . (ocultos);
+
+- mkdir - cria um diretorio;
+
+- touch --> cria arquivos;
